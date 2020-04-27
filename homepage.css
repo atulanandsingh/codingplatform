@@ -93,7 +93,7 @@ button:hover{
     height: 380px;
     left: 15px;
     background-color: rgba(255,255,255,1.0);
-    box-shadow: 0 10px 15px black;
+    box-shadow: 0 10px 15px rgba(240,240,240,0.6);
     word-wrap: break-word;
     overflow: auto;
     border-style: hidden;
@@ -102,7 +102,7 @@ button:hover{
     text-decoration: none;
     margin-right: 20px;
     margin-bottom: 10px; 
-    margin-top: 50px;   
+    margin-top: 20px;   
 }
 .contentbox ul p,a{
     text-align: center;
@@ -116,19 +116,22 @@ footer {
     color: rgba(255,255,255,1.0);
     bottom: 0;
     left: 0;
-    padding: 3px;
+    padding: 0px;
 }
 footer table{
     border-collapse: collapse;
-
+    padding: 0px;
+    border-spacing: 0;
+    
 }
 .partners{
     background-color: #588BAE;
+    column-width: 133px;
 }
 .partners a img{
     position: relative; 
-    width: 170px;
-    height: 85px;
+    width: 130px;
+    height: 70px;
     float: left;
 }
 
