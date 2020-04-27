@@ -1,0 +1,437 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"paddin",
+				"padding-right\tproperty"
+			],
+			[
+				"pad",
+				"padding-bottom\tproperty"
+			],
+			[
+				"margi",
+				"margin-right\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"alig",
+				"text-align\tproperty"
+			],
+			[
+				"al",
+				"align-self\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"pa",
+				"padding-bottom\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"backgrou",
+				"background-position\tproperty"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"Admin",
+				"Adminfile"
+			],
+			[
+				"Ad",
+				"Adminfile"
+			],
+			[
+				"admi",
+				"Adminfile"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"ge",
+				"getval"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 2627,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "about.css",
+			"settings":
+			{
+				"buffer_size": 1844,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/apple/Documents/GitHub/codingplatform"
+	],
+	"file_history":
+	[
+		"/Users/apple/Documents/GitHub/codingplatform/about.css",
+		"/Users/apple/Desktop/College Work/Web tech project/index.html",
+		"/Users/apple/Desktop/College Work/Web tech project/ipevent.html",
+		"/Users/apple/Desktop/College Work/Web tech project/ipevent.css",
+		"/Users/apple/Desktop/College Work/Web tech project/index.css",
+		"/Users/apple/Desktop/College Work/Web tech project/register.html",
+		"/Users/apple/Desktop/College Work/Web tech project/register.css",
+		"/Users/apple/Desktop/College Work/Web tech project/otherevent.html",
+		"/Users/apple/Desktop/College Work/Web tech project/otherevent.css",
+		"/Users/apple/Desktop/College Work/Web tech project/homepage.css",
+		"/Users/apple/Desktop/College Work/Web tech project/form.css",
+		"/Users/apple/Desktop/College Work/Web tech project/form.html",
+		"/Users/apple/Desktop/College Work/Web tech project/about.html",
+		"/Users/apple/Desktop/College Work/Web tech project/about.css",
+		"/Users/apple/Desktop/College Work/Web tech project/contact.html",
+		"/Users/apple/Desktop/College Work/Web tech project/contact.css",
+		"/Users/apple/Desktop/College Work/Web tech project/css/homepage.css",
+		"/Users/apple/Downloads/coding platform/homepage/homepage.html",
+		"/Users/apple/Desktop/College Work/Web Tech Assignment/n.html",
+		"/Users/apple/Desktop/College Work/Web Tech Assignment/web.xml",
+		"/Users/apple/Desktop/College Work/Web Tech Assignment/submitinfo.java",
+		"/Users/apple/Downloads/‎Untitled.css",
+		"/Users/apple/Desktop/College Work/Web Tech Assignment/WebT.html",
+		"/Users/apple/Desktop/College Work/Web Tech/style.css",
+		"/Users/apple/Desktop/College Work/Web Tech/classAssignment1.css",
+		"/Users/apple/Desktop/College Work/Web Tech/classAssignment1.html",
+		"/Users/apple/Desktop/College Work/Web Tech/action_page.php",
+		"/Users/apple/Desktop/College Work/Web Tech/forms.html",
+		"/Users/apple/Desktop/Website/style.css",
+		"/Users/apple/Desktop/Website/index.html",
+		"/Users/apple/Desktop/Website/untitled.html",
+		"/Users/apple/Desktop/untitled.html",
+		"/Users/apple/Desktop/filetrial.cpp",
+		"/Users/apple/Desktop/Atul_Java/nPrime.java",
+		"/Users/apple/eclipse-workspace/Atul/src/Factorial.java",
+		"/Users/apple/Downloads/Logic Pro X (10.4.4) MAC/Logic Pro X (10.4.4) Full Crack copy.zip",
+		"/Users/apple/eclipse-workspace/Atul/src/Fibonacci.java",
+		"/Users/apple/Desktop/LMS.cpp",
+		"/Users/apple/Desktop/Atul_Java/Office2010.cmd",
+		"/Users/apple/eclipse-workspace/Atul/src/Prime.java",
+		"/Users/apple/Desktop/Max.java",
+		"/Users/apple/Desktop/Prime.java",
+		"/Users/apple/Desktop/macbook/celtx 2/js/calStorageCalendar.js"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "about.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 228.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "CodingPlatform.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
