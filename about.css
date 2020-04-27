@@ -1,0 +1,101 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(images/HDBG1.jpg) no-repeat; /*This prevents the image from repeating across the full width and height of the element*/
+    background-size: 200%;
+}
+.header{
+    position:relative;
+    width: 100%;
+    background: black;
+}
+
+.cta{
+    float:right;
+    position: relative;
+    bottom: 50px;
+    right:40px;
+}
+.cta2{
+    float:right;
+    position: relative;
+    bottom: 50px;
+    right:80px;
+}
+.cta3{
+    float:right;
+    position: relative;
+    bottom: 50px;
+    right:120px;
+}
+.cta4{
+    float:right;
+    position: relative;
+    bottom: 50px;
+    right:160px;
+}
+.dropbtn {
+    background-color: aquamarine;
+    color: black;
+    padding: 8px 20px;
+    border: none;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00e6b8;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 20px;
+  }
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover {background-color:  #00cca3;border-radius: 20px;} /*color and radius of dropdown content*/
+
+.cta4:hover .dropdown-content {display: block;}
+ 
+.cta3:hover .dropdown-content {display: block;}
+
+button{
+    padding:8px 20px;
+    background-color: aquamarine;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer ;
+    transition:all o.3s ease 0s;
+    }
+button:hover{
+    background-color: darkcyan;
+            }
+.img1{
+    position:relative;
+    padding: 10px;
+    left:100px;
+    }
+
+.containtent{
+    margin:auto;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    width:70%;
+    color: white;
+}
+.containtent p{
+    color: white;
+}
+.containtent img{
+    width:75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.containtent h3{
+    position: relative;
+    
+}
