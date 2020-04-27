@@ -92,6 +92,7 @@ button:hover{
     height: 380px;
     left: 15px;
     background-color: rgba(255,255,255,1.0);
+    box-shadow: 0 10px 15px black;
     word-wrap: break-word;
     overflow: auto;
     border-style: hidden;
@@ -99,7 +100,8 @@ button:hover{
     color: rgba(0,0,0,0.8);
     text-decoration: none;
     margin-right: 20px;
-    margin-bottom: 10px;    
+    margin-bottom: 10px; 
+    margin-top: 50px;   
 }
 .contentbox ul p,a{
     text-align: center;
@@ -179,7 +181,7 @@ footer {
       width: 100px;
       position: fixed;
       left:92%;
-      bottom:300px;
+      bottom:50%;
 }
 .social ul li a{
     position: relative;
