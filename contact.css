@@ -1,15 +1,17 @@
 
 body{
+    width: 100%;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    background: url(images/HDBG1.jpg) no-repeat; /*This prevents the image from repeating across the full width and height of the element*/
-    background-size: 200%;
+    font-family: 'Open-sans', sans-serif;
+    background-color: rgba(240,240,240,0.6);
 }
 .header{
     position:relative;
     width: 100%;
-    background: black;
+    height: 5rem;
+    background-color: #588BAE;
+    color: rgba(255,255,255,1.0);
 }
 
 .cta{
@@ -36,51 +38,53 @@ body{
     bottom: 50px;
     right:160px;
 }
+
 .dropbtn {
-    background-color: aquamarine;
-    color: black;
+    color: rgba(255,255,255,0.8);
     padding: 8px 20px;
     border: none;
   }
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #00e6b8;
+    background-color: #323754;
     min-width: 160px;
     z-index: 1;
-    border-radius: 20px;
+    border-radius: 5px;
   }
 .dropdown-content a {
-    color: black;
+    color: rgba(255,255,255,0.8);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
 
-.dropdown-content a:hover {background-color:  #00cca3;border-radius: 20px;} /*color and radius of dropdown content*/
+.dropdown-content a:hover {
+    background-color: rgba(255,255,255,1.0);
+    border-radius: 5px;
+}
 
-.cta4:hover .dropdown-content {display: block;}
- 
+.cta4:hover .dropdown-content {display: block;} 
 .cta3:hover .dropdown-content {display: block;}
 
 button{
+    color: rgba(255,255,255,0.6);
     padding:8px 20px;
-    background-color: aquamarine;
+    background-color: #588BAE;
     border:none;
-    border-radius: 50px;
+    border-radius: 5px;
     cursor: pointer ;
     transition:all o.3s ease 0s;
     }
 button:hover{
-    background-color: darkcyan;
+    color: rgba(255,255,255,1.0);
             }
-
-.img1{
+.logo{
     position:relative;
     padding: 10px;
     left:100px;
-    
-}
+    color: rgba(255,255,255,0.8)
+    }
 
 
 /* unvisited link */
@@ -106,14 +110,20 @@ a:link {
   bottom: 0;
   width: 100%;
 }
+
 .text{
-    font-family: 'Dancing Script', cursive;
+font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 60px;
+}
+/*.text{
+    
     font-size: 60px;
     background: -webkit-linear-gradient(red, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-}
+}*/
 .cn{
   font-size: 20px;
   color: white;
