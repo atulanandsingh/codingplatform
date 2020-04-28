@@ -89,9 +89,9 @@ button:hover{
 .contentbox{
     position: relative;
     float: left;
-    width: 30%;
+    width: 27%;
     height: 380px;
-    left: 15px;
+    left: 20px;
     background-color: rgba(255,255,255,1.0);
     box-shadow: 0 10px 15px rgba(240,240,240,0.6);
     word-wrap: break-word;
@@ -100,14 +100,37 @@ button:hover{
     border-radius: 10px;
     color: rgba(0,0,0,0.8);
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 60px;
     margin-bottom: 10px; 
     margin-top: 20px;   
+    box-shadow:2px 2px 15px grey; 
 }
 .contentbox ul p,a{
     text-align: center;
     text-decoration: none;
 } 
+.ThirdDiv{
+    position: absolute;;
+    top:110px;
+    width: 27%;
+    height: 380px;
+    left:875px;
+    background-color: rgba(255,255,255,1.0);
+    box-shadow: 0 10px 15px rgba(240,240,240,0.6);
+    word-wrap: break-word;
+    overflow: auto;
+    border-style: hidden;
+    border-radius: 10px;
+    color: rgba(0,0,0,0.8);
+    text-decoration: none;
+    box-shadow:2px 2px 15px grey; 
+    
+}
+.ThirdDiv ul p,a{
+    text-align: center;
+    text-decoration: none;
+
+}
 /* Footer Section */
 footer {
     position: absolute;
