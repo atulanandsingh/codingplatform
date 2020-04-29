@@ -78,12 +78,11 @@ button:hover{
     color: rgba(255,255,255,1.0);
             }
 .logo{
-    
     width: 100%;
     padding: 10px;
     left:4%;
     color: rgba(255,255,255,0.8);
-    text-decoration: none;
+    border: 2px solid black;
     }
 
 .logo img{
@@ -93,6 +92,7 @@ button:hover{
     height: auto;
     left: 50px;
     top: -110px;
+    border: 2px solid black;
 }
 /* Body Section*/
 .contentbox{
