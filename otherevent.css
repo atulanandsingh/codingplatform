@@ -84,8 +84,9 @@ button:hover{
 img {
     padding: 5px;
     display: inline-block;
-    width: 95%;
-    height: 95%;
+    width: 500px;
+    height: 350px;
+    margin-top: 50px;
 }
 .content{
     padding: 2px;
