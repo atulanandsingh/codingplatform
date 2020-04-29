@@ -7,8 +7,13 @@
         <title> Coding Platform | One stop for all coding events, offline events and competitive programming.</title>
         <link rel="stylesheet" href="homepage.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
     </head>
     <body>
+
+       
+
         <!-- Header Block ....................................................................................................-->
         <div class="header" >      
             <div class="logo"> <a href="homepage.html"> <img src="images/logo2.png"></a></div>
@@ -90,7 +95,7 @@
         
         <!-- Content Box 3 with learning contents,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
         <div class="ThirdDiv">
-               <div class="loginContainer">
+               <form id="login" class="loginContainer" >
                 <h1>Login</h1>
                 <div class="LoginTextbox">
                     <img  src="images/USERNAME.png" width="25px" height="25px" >
@@ -104,11 +109,58 @@
                     
                 </div>
                 <input class="signin" type="button" name="" value="Sign in">
-                <div class="newuser">Not a Member? <a href="register.html">click here</a> </div>
-            </div>
+                <div class="olduser">Not a Member? <button type="button" class="toggle-btn" onclick="reg()">click here</button> </div>
+            </form>
+
+            <form id="register" class="RegContainer" >
+                <h1>Register</h1>
+                <div class="RegTextbox">
+                     <img  src="images\USERNAME.png" width="25px" height="25px" >
+                    <input type="text" placeholder="Username" id="username" maxlength="20" value="">
+
+                </div>
+
+                <div class="RegTextbox">
+                    <img  src="images\EMAIL.png" width="25px" height="25px" >
+                    <input type="email" placeholder="Email id" id="EmailId" value="">
+
+                </div>
+                
+                <div class="RegTextbox">
+                    <img  src="images\PASSWORD.png" width="25px" height="25px" >
+                    <input type="password" placeholder="Password" id="password" maxlength="8" value="">
+                    
+                </div>
+
+                
+                <input class="Reg" type="button" name="" value="Register">
+                <div class="olduser">Already a Member? <button type="button" class="toggle-btn" onclick="log()">click here</button> </div>
+
+                
+            </form>
 
 
         </div>
+
+        <script>
+            
+            var x = document.getElementById("login");
+            var y = document.getElementById("register");
+            
+
+            function log(){
+                x.style.left = "50%";
+                y.style.left = "250%";
+
+            }
+            function reg(){
+                x.style.left = "-250%";
+                y.style.left = "50%";
+
+            }
+
+
+        </script>
 
         <!-- Social Section -->
         <div class="social">
@@ -133,6 +185,8 @@
             </table>
            
         </footer>
+
+        
     </body>
 </head>
 </html>

@@ -184,7 +184,7 @@ button:hover{
     background-color: rgba(255,255,255,0.5);
     box-shadow: 0 10px 15px rgba(240,240,240,0.6);
     word-wrap: break-word;
-    overflow: auto;
+    overflow: hidden;
     border-style: hidden;
     border-radius: 10px;
     color: rgba(0,0,0,0.8);
@@ -345,9 +345,10 @@ footer table{
     width: fit-content;
     position: absolute;
     top: 45%;
-    left: 50%;
+   /* left: 50%;*/
     transform: translate(-50%,-50%);
     /*box-shadow: 3px 3px 7px 7px black;*/
+     transition: .5s;
 
 
 }
@@ -414,3 +415,79 @@ footer table{
 
 
 
+.RegContainer{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    /*left: 200%;*/
+    transform: translate(-50%,-50%);
+    /*box-shadow: 3px 3px 7px 7px black;*/
+     transition: .5s;
+}
+.RegContainer h1{
+    float: center;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 4px solid #588BAE;   /*underline*/
+    margin-bottom: 25px;
+    padding: 13px 0;
+    color:black;
+}
+.RegTextbox{
+    width:250px;
+    overflow: hidden;   /*The CSS overflow property controls what happens to content that is too big to fit into an area.
+                       hidden - The overflow is clipped, and the rest of the content will be invisible*/
+    font-size:20px;
+    color:black;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #588BAE;
+
+}
+.RegTextbox i{
+    width:26px;
+    float: left;
+    text-align: center;
+
+}
+.RegTextbox input{
+    border:none;
+    outline: none;
+    background:none;
+    color:black;
+    font-size: 18px;
+    width:80%;
+    float: left;
+    margin: 0 10px;
+}
+.Reg{
+    width:100%;
+    background: none;
+    border:2px solid #588BAE;
+    color: black;
+    padding:5px;
+    font-size:18px;
+    cursor: pointer;
+    margin:12px 0;
+}
+.toggle-btn{
+    text-decoration: underline;
+    border: none;
+    background: none;
+    color: #588BAE;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+.toggle-btn:hover{
+    color: black;
+}
+
+#login{
+    left: 50%;
+}
+
+
+#register{
+    left: 250%;
+}
