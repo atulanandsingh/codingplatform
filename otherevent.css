@@ -24,9 +24,20 @@ body{
     float:right;
     position: absolute;
     top:30%;
-    right: 180px;
+    right: 160px;
 }
-
+.cta3{
+    float:right;
+    position: absolute;
+    top:30%;
+    right: 340px;
+}
+.cta4{
+    float:right;
+    position: absolute;
+    top:30%;
+    right: 500px;
+}
 button{
     color: rgba(255,255,255,0.6);
     padding:8px 20px;
