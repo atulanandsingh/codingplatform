@@ -114,7 +114,7 @@ a:link {
 .text{
 font-family: 'Dancing Script', cursive;
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
 }
 /*.text{
     
@@ -126,18 +126,25 @@ font-family: 'Dancing Script', cursive;
 }*/
 .cn{
   font-size: 20px;
-  color: white;
+  
   text-align: center;
 }
-
+.contactForm{
+  text-align: center;
+}
+.contactlink{
+  text-align: center;
+}
 .contactlink ul{
   position: absolute;
   display:flex;
-  left:20%;
+  
 
 }
 .contactlink ul li{
   display:inline;
+  padding-left: 10%;
+  padding-right: 10%;
   
 }
 .contactlink ul li a{
@@ -172,5 +179,47 @@ font-family: 'Dancing Script', cursive;
   color: #4AC959;
 }
 .footer{
-  color: #ffffff;
+  color: black
+}
+.containtent{
+    margin:auto;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    width:70%;
+    
+}
+
+.containtent img{
+    width:75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.containtent h3{
+    position: relative;
+    
+}
+footer h2{
+  text-align: center;
+}
+footer {
+  
+  width: 100%;
+  background-color: #588BAE;
+  color: rgba(255,255,255,1.0);
+  
+  padding: 0px;
+}
+.Foot ul li img{
+  width:75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.Foot ul {
+  
+  display:flex;
+  
+}
+.Foot ul li{
+  padding-left: 10%;
+  padding-right: 10%;
 }
