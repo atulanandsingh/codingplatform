@@ -43,12 +43,13 @@ body{
     border: none;
   }
 .dropdown-content {
-    display: none;
+    display: none; 
     position: absolute;
-    background-color: #00e6b8;
-    min-width: 160px;
-    z-index: 1;
-    border-radius: 20px;
+    background-color: #323754;
+    /* min-width: 160px; */
+    z-index: 2;
+    border-radius: 5px;
+    margin-top: 10%;
   }
 .dropdown-content a {
     color: black;

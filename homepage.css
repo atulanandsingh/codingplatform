@@ -28,18 +28,13 @@ body{
     bottom: 10%;
     right:14%;
 }
-.cta3{
+.cta4{
     float:right;
     position: absolute;
     bottom: 10%;
     right:21%;
 }
-.cta4{
-    float:right;
-    position: absolute;
-    bottom: 10%;
-    right:28%;
-}
+
 
 .dropbtn {
     color: rgba(255,255,255,0.8);
@@ -47,12 +42,13 @@ body{
     border: none;
   }
 .dropdown-content {
-    display: none;
+    display: none; 
     position: absolute;
     background-color: #323754;
-    min-width: 160px;
-    z-index: 1;
+    /* min-width: 160px; */
+    z-index: 2;
     border-radius: 5px;
+    margin-top: 1%;
   }
 .dropdown-content a {
     color: rgba(255,255,255,0.8);
@@ -82,15 +78,22 @@ button:hover{
     color: rgba(255,255,255,1.0);
             }
 .logo{
-    position:absolute;
-    width: 40%;
+    
+    width: 100%;
     padding: 10px;
     left:4%;
     color: rgba(255,255,255,0.8);
     text-decoration: none;
     }
 
-
+.logo img{
+    float: left;
+    position: relative;
+    width: 300px;
+    height: auto;
+    left: 50px;
+    top: -110px;
+}
 /* Body Section*/
 .contentbox{
     position: absolute;
@@ -102,7 +105,7 @@ button:hover{
     width: 27%;
     height: 48%;
     margin-left: 2%;
-    background-color: rgba(255,255,255,1.0);
+    background-color: rgba(255,255,255,0.5);
     box-shadow: 0 10px 15px rgba(240,240,240,0.6);
     word-wrap: break-word;
     overflow: auto;
@@ -116,11 +119,17 @@ button:hover{
     box-shadow:2px 2px 15px grey; 
 }
 .contentbox ul a{
+    position: relative;
     text-align: center;
     text-decoration: none;
-    color: blue;
+    color: #588BAE;
+}
+
+.contentbox ul a:hover{
+    color: black;
 }
 .contentbox p{
+    position: relative;
     text-align: center;
     text-decoration: none;
     color: black;
@@ -135,7 +144,7 @@ button:hover{
     width: 27%;
     height: 55%;
     left: 20px;
-    background-color: rgba(255,255,255,1.0);
+    background-color: rgba(255,255,255,0.5);
     box-shadow: 0 10px 15px rgba(240,240,240,0.6);
     word-wrap: break-word;
     overflow: auto;
@@ -148,10 +157,21 @@ button:hover{
     margin-top: 20px;   
     box-shadow:2px 2px 15px grey; 
 }
-.contentbox2 ul p,a{
+.contentbox2 ul a{
     text-align: center;
     text-decoration: none;
+    color: #588BAE;
 } 
+
+.contentbox2 ul a:hover{
+    color: black;
+}
+.contentbox2 p{
+    
+    text-align: center ;
+    text-decoration: none;
+    color: black;
+}
 .ThirdDiv{
     position: absolute;
     top: 24%;
@@ -161,7 +181,7 @@ button:hover{
     width: 27%;
     height: 48%;
     left: 20px;
-    background-color: rgba(255,255,255,1.0);
+    background-color: rgba(255,255,255,0.5);
     box-shadow: 0 10px 15px rgba(240,240,240,0.6);
     word-wrap: break-word;
     overflow: auto;
@@ -335,7 +355,7 @@ footer table{
     float: center;
     text-align: center;
     font-size: 40px;
-    border-bottom: 4px solid #44ccaa;   /*underline*/
+    border-bottom: 4px solid #588BAE;   /*underline*/
     margin-bottom: 10%;
     padding: 13px 0;
     color:Black;
@@ -348,7 +368,7 @@ footer table{
     color: Black;
     padding: 8px 0;
     margin: 8px 0;
-    border-bottom: 1px solid #44ccaa;
+    border-bottom: 1px solid #588BAE;
 }
 .LoginTextbox i{
     width:26px;
@@ -368,11 +388,29 @@ footer table{
 }
 .signin{
     width:100%;
-    background: none;
-    border:2px solid #44ccaa;
+    background: transparent;
+    border:2px solid #588BAE;
     color: black;
     padding:5px;
     font-size:18px;
     cursor: pointer;
     margin:12px 0;
 }
+
+.newuser {
+    
+    margin-top: 10px;
+    text-align: center;
+   
+
+}
+
+.newuser a{
+    color: #588BAE;
+}
+.newuser a:hover{
+    text-decoration: underline;
+}
+
+
+
