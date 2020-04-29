@@ -1,172 +1,133 @@
 
 body{
+    width: 100%;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    background-image: url("images/HDBG1.jpg"); /*This prevents the image from repeating across the full width and height of the element*/
-    background-size: 100%;
+    font-family: 'Open-sans', sans-serif;
+    background-color: rgba(240,240,240,0.6);
 }
 .header{
     position:relative;
     width: 100%;
-    background: black;
+    height: 5rem;
+    background-color: #588BAE;
+    color: rgba(255,255,255,1.0);
 }
 
 .cta{
     float:right;
-    position: relative;
-    bottom: 50px;
-    right:40px;
+    position: absolute;
+    top:30%;
+    right: 40px;
 }
 .cta2{
     float:right;
-    position: relative;
-    bottom: 50px;
-    right:80px;
+    position: absolute;
+    top:30%;
+    right: 160px;
 }
 .cta3{
     float:right;
-    position: relative;
-    bottom: 50px;
-    right:120px;
+    position: absolute;
+    top:30%;
+    right: 340px;
 }
 .cta4{
     float:right;
-    position: relative;
-    bottom: 50px;
-    right:160px;
-}
-.dropbtn {
-    background-color: aquamarine;
-    color: black;
-    padding: 8px 20px;
-    border: none;
-  }
-.dropdown-content {
-    display: none;
     position: absolute;
-    background-color: #00e6b8;
-    min-width: 160px;
-    z-index: 1;
-    border-radius: 20px;
-  }
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-
-.dropdown-content a:hover {background-color:  #00cca3;border-radius: 20px;} /*color and radius of dropdown content*/
-
-.cta4:hover .dropdown-content {display: block;}
- 
-.cta3:hover .dropdown-content {display: block;}
-
+    top:30%;
+    right: 500px;
+}
 button{
+    color: rgba(255,255,255,0.6);
     padding:8px 20px;
-    background-color: aquamarine;
+    background-color: #588BAE;
     border:none;
-    border-radius: 50px;
+    border-radius: 5px;
     cursor: pointer ;
     transition:all o.3s ease 0s;
     }
 button:hover{
-    background-color: darkcyan;
+    color: rgba(255,255,255,1.0);
             }
-.img1{
-    position:relative;
-    padding: 10px;
+.logo{
+    position: relative;
+    float: left;
     left:100px;
+    color: rgba(255,255,255,0.8)
     }
+/* Body Section*/
 
-.contentbox{
-    position: relative;
-    width: 500px;
-    height: 500px;
-    background-color: aquamarine;
-    border-radius: 20px;
-    word-wrap: break-word; /*prevent text from overflowing from div box */
-    overflow: scroll;
-    border-style: solid;
-    border-width: 6px;
-    border-color: #009999;
-    top: 80px;
-    left: 160px;
+.technical , .non-technical{
+    position: static;
+    width: 100%;
+    display: block;
+    height: 550px;
+    border: hidden;
+    background-color: rgba(250,250,250,1);
+    box-shadow: 10px 10px 5px #1e1236;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    overflow: auto;
 }
-.contentbox ul p{
+
+.tech_photo , .non-tech_photo{
+    position: relative;
+    float: left;
+    width: 40%;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+img {
+    padding: 5px;
+    display: inline-block;
+    width: 95%;
+    height: 95%;
+}
+.content{
+    padding: 2px;
+    position: relative;
+    float: left;
+    width: 57%;
+    /*border:2px solid black;*/
+    border-radius: 10px;
+    text-align: justify;
+    overflow: auto;
+}
+.cb{
+    padding: 5px;
+    height:33%;
+    overflow: auto;
+}
+
+h2,h4{
     text-align: center;
-    font-family: "Times New Roman";
-    font-size: 27px;
-}   
+    text-decoration: #1e1236;
+}
 
-/*#name{
-    color: black;
-    position: relative;
-    left:200px;
-    bottom:55px;
-    text-shadow: 2px 2px 2px white;
-    font-size:28px;
-}*/
-.marquee1 {
-     
-    width:80vw;/*vw is define the size according to view window e.g change acc to size of display*/
-    height:50px;
-    color: tomato;
-}
-.marqueeContent{
-    list-style:none;
-    height: 100%;
-    display:flex; /*to keep all the list elements in one line*/
-    animation: scrolling 10s linear infinite;
-}
-@keyframes scrolling {
-    0% { transform: translateX(80vw);}
-    100% { transform: translateX(calc(-1*10vw*4));}
-}
-.marqueeContent li{
-    display:flex;
-    /*border: 1px solid teal;*/
-    width:20vw;
-    flex-shrink: 0;
-    font-size: 20px;   /* rem??*/
-}
-.marqueeContent:hover{
-    animation-play-state: paused;
-}
-/* unvisited link */
-a:link {
-    color: red;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: #006600;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #003333;
-  }
-  .social{
+/* Social Section */
+.social{
       height : 150px;
       width: 100px;
       position: fixed;
       left:92%;
-      bottom:300px;
+      bottom:50%;
 }
 .social ul li a{
     position: relative;
     width: 60px;
     height: 60px;
     background: #f1f1f1;
-    text align: center;
+    text-align: center;
     box-sizing:border-box;
     border-radius: 50%;
     padding: 10px;
     text-decoration:none;
     box-shadow: 0 10px 15px black;
-    background: linear-Gradient(0deg, ,#ddd , #fff);
+    background: linear-Gradient(0deg, #ddd , #fff);
     transition: .5s;
     color: #1e1236;
 }
@@ -180,7 +141,7 @@ a:link {
 .social ul li a .fa{
     width:30%;
     height:30%;
-    background: linear-Gradient(0deg, ,#fff , #6e6b6e);
+    background: linear-Gradient(0deg,#fff , #6e6b6e);
     border-radius: 50%;
     font-size:22px;
     transition: .5s;
@@ -201,21 +162,21 @@ a:link {
     color: blue;
 }
 
-.partners ul  {
-    display:flex;
-    
-  }
-  .partners ul li img{
-    margin: 10px 100px 10px 20%;
+
+/* Footer Section */
+footer{
     display: block;
-    
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #588BAE;
+    color: rgba(255,255,255,1.0);
+    padding: 15px;
 }
-.partners ul li a{
-    display: block;
+footer ul li{
+    list-style: none;
+    text-align: right;
 }
-.maintext{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
-    text-align: center;
-    color: azure;
+footer ul li a{
+    text-decoration: none;
 }
