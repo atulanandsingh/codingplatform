@@ -82,10 +82,11 @@ button:hover{
 .logo{
     
     width: 80%;
-    padding: 10px;
     left:4%;
     color: rgba(255,255,255,0.8);
     text-decoration: none;
+
+
     }
 
 .logo img{
