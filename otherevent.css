@@ -38,14 +38,14 @@ button:hover{
     float: left;
     /*border: 1px solid black;*/
     width: 300px;
-    height: 100px;
+    height: 250px;;
     margin-left: 40px;
-    margin-top: 5px;
+    top:-130px;
 }
 /* Body Section*/
 
 .technical , .non-technical{
-    position: static;
+    position: relative;
     width: 100%;
     display: block;
     height: 550px;

@@ -30,11 +30,17 @@ body{
     bottom: 10%;
     right:14%;
 }
-.cta4{
+.cta3{
     float:right;
     position: absolute;
     bottom: 10%;
     right:21%;
+}
+.cta4{
+    float:right;
+    position: absolute;
+    bottom: 10%;
+    right:32%;
 }
 
 
