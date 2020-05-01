@@ -6,10 +6,12 @@ body{
     font-family: 'Open-sans', sans-serif;
     background-image: url("images/bgn.jpeg");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-blend-mode: soft-light;
     background-color: rgba(240,240,240,0.6);
 }
+
+/*-----------------Header Styling------------------*/
 .header{
     position:relative;
     width: 100%;
@@ -18,61 +20,35 @@ body{
     color: rgba(255,255,255,1.0);
 }
 
-.cta{
+.contact{
     float:right;
     position: absolute;
     bottom: 10%;
     right:7%;
 }
-.cta2{
+.events{
     float:right;
     position: absolute;
     bottom: 10%;
     right:14%;
 }
-.cta3{
+.calender{
     float:right;
     position: absolute;
     bottom: 10%;
-    right:25%;
+    right:24%;
 }
-/*
-.cta4{
+
+.home{
     float:right;
     position: absolute;
     bottom: 10%;
-    right:32%;
-}
-*/
-
-.dropbtn {
-    color: rgba(255,255,255,0.8);
-    padding: 8px 20px;
-    border: none;
-  }
-.dropdown-content {
-    display: none; 
-    position: absolute;
-    background-color: #323754;
-    /* min-width: 160px; */
-    z-index: 2;
-    border-radius: 5px;
-    margin-top: 1%;
-  }
-.dropdown-content a {
-    color: rgba(255,255,255,0.8);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-
-.dropdown-content a:hover {
-    background-color: #acdcfc;
-    border-radius: 5px;
+    right:35%;
 }
 
-.cta4:hover .dropdown-content {display: block;} 
-.cta3:hover .dropdown-content {display: block;}
+.home button{
+    color: #e6e600;
+}
 
 button{
     color: rgba(255,255,255,0.6);
@@ -102,9 +78,11 @@ button:hover{
     width: 300px;
     height: auto;
     left: 50px;
-    top: -110px;
+    top: 25px;
 }
-/* Body Section*/
+
+
+/* -----------------Body Section------------------*/
 .contentbox{
     position: absolute;
     top: 24%;
@@ -207,7 +185,7 @@ button:hover{
     text-decoration: none;
 
 }
-/* Footer Section */
+/* --------------------Footer Section------------------ */
 footer {
     position: absolute;
     width: 100%;
@@ -236,60 +214,8 @@ footer table{
     float: left;
     vertical-align: middle;
     }
-.partners2 a img{
-    position: relative;
-    width:120px;
-    height: 50px;
-    padding-left: 45%;
-    padding-right: 45%;
-}
 
-/*
-.marquee1 {
-     
-    width:80vw;
-    height:50px;
-    color: #fff;
-}
-.marqueeContent{
-    list-style:none;
-    height: 100%;
-    display:flex; 
-    animation: scrolling 10s linear infinite;
-}
-.marqueeContent li a{
-    font-size: 16px;
-}
-@keyframes scrolling {
-    0% { transform: translateX(80vw);}
-    100% { transform: translateX(calc(-1*10vw*4));}
-}
-.marqueeContent li{
-    display:flex;
-    border: 1px solid teal;
-    width:20vw;
-    flex-shrink: 0;
-    font-size: 20px;
-}
-.marqueeContent:hover{
-    animation-play-state: paused;
-}
-
-.contentbox a:link {
-    color: red;
-  }
-  
-  .marqueeContent a:visited {
-    color: #76f52c;
-  }
- .marqueeContent a:hover {
-    color: #c1faa0;
-  }
-  a:hover {
-    color: #003333;
-  }
-  */
-
+/*-----------Social Links --------*/
 .social{
       height : 150px;
       width: 100px;
@@ -347,7 +273,7 @@ footer table{
 /*display:flex; to keep all the list elements in one line */
 /*word-wrap: break-word; prevent text from overflowing from div box */
 
-
+/*----------------Login Section -----------------*/
 .loginContainer{
     width: fit-content;
     position: absolute;
@@ -421,11 +347,11 @@ footer table{
 }
 
 
-
+/*----------------Register Section--------*/
 .RegContainer{
     width: 280px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     /*left: 200%;*/
     transform: translate(-50%,-50%);
     /*box-shadow: 3px 3px 7px 7px black;*/
@@ -490,6 +416,7 @@ footer table{
     color: black;
 }
 
+/*-----------Javascript support csss --------- */
 #login{
     left: 50%;
 }
@@ -498,3 +425,51 @@ footer table{
 #register{
     left: 250%;
 }
+
+
+/*--------------------------------------Residual Code-----------*/
+/*
+.marquee1 {
+     
+    width:80vw;
+    height:50px;
+    color: #fff;
+}
+.marqueeContent{
+    list-style:none;
+    height: 100%;
+    display:flex; 
+    animation: scrolling 10s linear infinite;
+}
+.marqueeContent li a{
+    font-size: 16px;
+}
+@keyframes scrolling {
+    0% { transform: translateX(80vw);}
+    100% { transform: translateX(calc(-1*10vw*4));}
+}
+.marqueeContent li{
+    display:flex;
+    border: 1px solid teal;
+    width:20vw;
+    flex-shrink: 0;
+    font-size: 20px;
+}
+.marqueeContent:hover{
+    animation-play-state: paused;
+}
+
+.contentbox a:link {
+    color: red;
+  }
+  
+  .marqueeContent a:visited {
+    color: #76f52c;
+  }
+ .marqueeContent a:hover {
+    color: #c1faa0;
+  }
+  a:hover {
+    color: #003333;
+  }
+  */

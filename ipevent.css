@@ -3,8 +3,13 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Open-sans', sans-serif;
-    background-color: rgba(240,240,240,1.0);
+    background-image: url("images/bgn.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: rgba(240,240,240,0.6);
 }
+/*-----------------Header Styling------------------*/
 .header{
     position:relative;
     width: 100%;
@@ -12,25 +17,35 @@ body{
     background-color: #588BAE;
     color: rgba(255,255,255,1.0);
 }
-.logo {
-    position: absolute;
-    top:30%;
-    left:6%;
-    font-size: 30px;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-}
-.cta{
+
+.contact{
     float:right;
     position: absolute;
     bottom: 10%;
     right:7%;
 }
-.cta2{
+.events{
     float:right;
     position: absolute;
     bottom: 10%;
     right:14%;
+}
+.calender{
+    float:right;
+    position: absolute;
+    bottom: 10%;
+    right:24%;
+}
+
+.home{
+    float:right;
+    position: absolute;
+    bottom: 10%;
+    right:35%;
+}
+
+.calender button{
+    color: #e6e600;
 }
 
 button{
@@ -45,22 +60,37 @@ button{
 button:hover{
     color: rgba(255,255,255,1.0);
             }
-.img1{
-    position:relative;
-    padding: 10px;
-    left:100px;
+.logo{
+    
+    width: 80%;
+    left:4%;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+
+
     }
 
-/* Body Section .......................................................................... 
-
-iframe{
-    position: absolute;
-    width:1000px;
-    height:500px; 
-    overflow:auto;
-    margin: 15px;
+.logo img{
+    float: left;
+    position: relative;
+    width: 300px;
+    height: auto;
+    left: 50px;
+    top: 25px;
 }
 
+/* Body Section .......................................................................... */
+
+iframe {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    height: 60%;
+    overflow: auto;
+    opacity: 80%;
+    margin: 15px auto;
+}
 
 /* Social Section ......................................................................... */
 .social{
@@ -68,7 +98,7 @@ iframe{
       width: 100px;
       position: fixed;
       left:92%;
-      bottom:300px;
+      bottom:50%;
 }
 .social ul li a{
     position: relative;
@@ -95,7 +125,7 @@ iframe{
 .social ul li a .fa{
     width:30%;
     height:30%;
-    background: linear-Gradient(0deg, #fff , #6e6b6e);
+    background: linear-Gradient(0deg,#fff , #6e6b6e);
     border-radius: 50%;
     font-size:22px;
     transition: .5s;
@@ -115,6 +145,10 @@ iframe{
 .social ul li:nth-child(5) a:hover .fa{
     color: blue;
 }
+
+/*vw is define the size according to view window e.g change acc to size of display*/
+/*display:flex; to keep all the list elements in one line */
+/*word-wrap: break-word; prevent text from overflowing from div box */
 
 /* Footer Section ............................................................................*/
 /* Footer Section */

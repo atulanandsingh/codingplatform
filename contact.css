@@ -1,29 +1,53 @@
-
 body{
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Open-sans', sans-serif;
     background-color: rgba(240,240,240,0.6);
+    font-family: 'Open-sans', sans-serif;
+    background-image: url("images/bgn.jpeg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-blend-mode: soft-light;
+    
 }
 .header{
-    position:relative;
+    position:fixed;
+    top: 0px;
     width: 100%;
     height: 5rem;
     background-color: #588BAE;
     color: rgba(255,255,255,1.0);
+    z-index: 1;
 }
-.cta{
+
+.contact{
     float:right;
     position: absolute;
     bottom: 10%;
     right:7%;
 }
-.cta2{
+.events{
     float:right;
     position: absolute;
     bottom: 10%;
     right:14%;
+}
+.calender{
+    float:right;
+    position: absolute;
+    bottom: 10%;
+    right:24%;
+}
+
+.home{
+    float:right;
+    position: absolute;
+    bottom: 10%;
+    right:35%;
+}
+
+.contact button{
+    color: #e6e600;
 }
 
 
@@ -40,7 +64,24 @@ button{
 button:hover{
     color: rgba(255,255,255,1.0);
             }
+.logo{
+    
+    width: 80%;
+    left:4%;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
 
+
+    }
+
+.logo img{
+    float: left;
+    position: relative;
+    width: 300px;
+    height: auto;
+    left: 50px;
+    top: 25px;
+}
 
 
 /* unvisited link */
@@ -61,9 +102,16 @@ a:link {
 
 
 .text{
+  position: relative;
+  top: 60px;
 font-family: 'Dancing Script', cursive;
   text-align: center;
   font-size: 40px;
+    background: -webkit-linear-gradient(#588BAE, #e6e600);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 1px black;
+
 }
 /*.text{
     
@@ -73,6 +121,13 @@ font-family: 'Dancing Script', cursive;
     -webkit-text-fill-color: transparent;
     text-align: center;
 }*/
+
+iframe {
+  position: relative;
+  top: 25px;
+opacity: 70%;
+
+}
 .cn{
   font-size: 20px;
   
@@ -82,18 +137,19 @@ font-family: 'Dancing Script', cursive;
   text-align: center;
 }
 .contactlink{
+  width: 100%;
   text-align: center;
 }
 .contactlink ul{
+  padding-left: 0px;
   position: absolute;
+  width: 100%;
   display:flex;
-  
-
 }
 .contactlink ul li{
   display:inline;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 6%;
+  padding-right: 6%;
   
 }
 .contactlink ul li a{
@@ -145,17 +201,7 @@ font-family: 'Dancing Script', cursive;
     position: relative;
     
 }
-footer h2{
-  text-align: center;
-}
-footer {
-  
-  width: 100%;
-  background-color: #588BAE;
-  color: rgba(255,255,255,1.0);
-  
-  padding: 0px;
-}
+
 .Foot ul li img{
   width:75px;
   height: 75px;
@@ -167,7 +213,39 @@ footer {
   
 }
 .Foot ul li{
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
   
+/* --------------------Footer Section------------------ */
+footer {
+    position: fixed;
+    width: 100%;
+    background-color: #588BAE;
+    color: rgba(255,255,255,1.0);
+    bottom: 0;
+    left: 0;
+    padding: 0px;
+}
+footer table{
+    border-collapse: collapse;
+    padding: 0px;
+    border-spacing: 0;
+    width: 90%;
+    margin-left: 10%;
+    
+}
+.partners{
+    background-color: #588BAE;
+    column-width: 25%;
+}
+.partners a img{
+    position: relative; 
+    width: 110px;
+    height: auto;
+    float: left;
+    vertical-align: middle;
+    }
+

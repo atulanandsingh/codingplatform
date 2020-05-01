@@ -3,27 +3,50 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Open-sans', sans-serif;
+    background-image: url("images/bgn.jpeg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-blend-mode: soft-light;
     background-color: rgba(240,240,240,0.6);
 }
 .header{
-    position:relative;
+    position:fixed;
+    top: 0px;
     width: 100%;
     height: 5rem;
     background-color: #588BAE;
     color: rgba(255,255,255,1.0);
+    z-index: 1;
 }
 
-.cta{
+.contact{
     float:right;
     position: absolute;
     bottom: 10%;
     right:7%;
 }
-.cta2{
+.events{
     float:right;
     position: absolute;
     bottom: 10%;
-    right:16%;
+    right:14%;
+}
+.calender{
+    float:right;
+    position: absolute;
+    bottom: 10%;
+    right:24%;
+}
+
+.home{
+    float:right;
+    position: absolute;
+    bottom: 10%;
+    right:35%;
+}
+
+.events button{
+    color: #e6e600;
 }
 
 button{
@@ -38,30 +61,42 @@ button{
 button:hover{
     color: rgba(255,255,255,1.0);
             }
+.logo{
+    
+    width: 80%;
+    left:4%;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+
+
+    }
 
 .logo img{
-    position: relative;
     float: left;
-    /*border: 1px solid black;*/
+    position: relative;
     width: 300px;
-    height: 250px;;
-    margin-left: 40px;
-    top:-130px;
+    height: auto;
+    left: 50px;
+    top: 25px;
 }
 /* Body Section*/
 
-.technical , .non-technical{
+.technical, .non-technical {
     position: relative;
-    width: 100%;
+    top: 80px;
+    width: 95%;
     display: block;
-    height: 550px;
+    height: auto;
     border: hidden;
-    background-color: rgba(250,250,250,1);
+    background-color: rgba(250,250,250,0.6);
     box-shadow: 10px 10px 5px #1e1236;
     border-radius: 10px;
-    margin: 15px;
+    margin: 40px 15px;
     padding: 15px;
     overflow: auto;
+}
+.non-technical {
+    margin-bottom: 100px;
 }
 
 .tech_photo , .non-tech_photo{
@@ -73,7 +108,7 @@ button:hover{
     margin-right: 10px;
 }
 
-img {
+ .tech_photo img, .non-tech_photo img {
     padding: 5px;
     display: inline-block;
     width: 500px;
@@ -96,6 +131,9 @@ img {
     overflow: auto;
 }
 
+p{
+    color: #588BAE;
+}
 h2,h4{
     text-align: center;
     text-decoration: #1e1236;
@@ -157,19 +195,31 @@ h2,h4{
 
 
 /* Footer Section */
-footer{
-    display: block;
-    position: relative;
+footer {
+    position: fixed;
     width: 100%;
-    height: 150px;
     background-color: #588BAE;
     color: rgba(255,255,255,1.0);
-    padding: 15px;
+    bottom: 0;
+    left: 0;
+    padding: 0px;
 }
-footer ul li{
-    list-style: none;
-    text-align: left;
+footer table{
+    border-collapse: collapse;
+    padding: 0px;
+    border-spacing: 0;
+    width: 90%;
+    margin-left: 10%;
+    
 }
-footer ul li a{
-    text-decoration: none;
+.partners{
+    background-color: #588BAE;
+    column-width: 25%;
 }
+.partners a img{
+    position: relative; 
+    width: 110px;
+    height: auto;
+    float: left;
+    vertical-align: middle;
+    }
