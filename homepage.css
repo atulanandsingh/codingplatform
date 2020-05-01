@@ -288,7 +288,7 @@ footer table{
 .loginContainer h1{
     float: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     border-bottom: 4px solid #588BAE;   /*underline*/
     margin-bottom: 10%;
     padding: 13px 0;
@@ -360,7 +360,7 @@ footer table{
 .RegContainer h1{
     float: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     border-bottom: 4px solid #588BAE;   /*underline*/
     margin-bottom: 25px;
     padding: 13px 0;

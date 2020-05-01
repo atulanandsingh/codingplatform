@@ -108,7 +108,7 @@ font-family: 'Dancing Script', cursive;
   text-align: center;
   font-size: 40px;
     background: -webkit-linear-gradient(#588BAE, #e6e600);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 2px 2px 1px black;
 
