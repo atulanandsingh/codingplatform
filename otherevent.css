@@ -19,6 +19,12 @@ body{
     bottom: 10%;
     right:7%;
 }
+.cta2{
+    float:right;
+    position: absolute;
+    bottom: 10%;
+    right:16%;
+}
 
 button{
     color: rgba(255,255,255,0.6);

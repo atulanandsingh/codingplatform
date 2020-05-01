@@ -13,59 +13,20 @@ body{
     background-color: #588BAE;
     color: rgba(255,255,255,1.0);
 }
-
 .cta{
     float:right;
-    position: relative;
-    bottom: 50px;
-    right:40px;
+    position: absolute;
+    bottom: 10%;
+    right:7%;
 }
 .cta2{
     float:right;
-    position: relative;
-    bottom: 50px;
-    right:80px;
-}
-.cta3{
-    float:right;
-    position: relative;
-    bottom: 50px;
-    right:120px;
-}
-.cta4{
-    float:right;
-    position: relative;
-    bottom: 50px;
-    right:160px;
-}
-
-.dropbtn {
-    color: rgba(255,255,255,0.8);
-    padding: 8px 20px;
-    border: none;
-  }
-.dropdown-content {
-    display: none;
     position: absolute;
-    background-color: #323754;
-    min-width: 160px;
-    z-index: 1;
-    border-radius: 5px;
-  }
-.dropdown-content a {
-    color: rgba(255,255,255,0.8);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-
-.dropdown-content a:hover {
-    background-color: rgba(255,255,255,1.0);
-    border-radius: 5px;
+    bottom: 10%;
+    right:14%;
 }
 
-.cta4:hover .dropdown-content {display: block;} 
-.cta3:hover .dropdown-content {display: block;}
+
 
 button{
     color: rgba(255,255,255,0.6);
@@ -79,12 +40,7 @@ button{
 button:hover{
     color: rgba(255,255,255,1.0);
             }
-.logo{
-    position:relative;
-    padding: 10px;
-    left:100px;
-    color: rgba(255,255,255,0.8)
-    }
+
 
 
 /* unvisited link */
@@ -102,14 +58,7 @@ a:link {
     color: #44ccaa;
   }
   
-  
-.footer{
-    position: absolute;
-    top:100%;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
+
 
 .text{
 font-family: 'Dancing Script', cursive;
@@ -178,9 +127,7 @@ font-family: 'Dancing Script', cursive;
 .contactlink ul li:nth-child(4) a:hover .fa{
   color: #4AC959;
 }
-.footer{
-  color: black
-}
+
 .containtent{
     margin:auto;
     text-align: center;
@@ -223,3 +170,4 @@ footer {
   padding-left: 10%;
   padding-right: 10%;
 }
+  
